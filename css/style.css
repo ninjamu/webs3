@@ -2,8 +2,45 @@ body{
 	margin: 0px;
 	width: 100%;
 }
-#vision,#principals,#team{
+.menupj{
+	width: 20%;
+	float: left;
+	height: 100%;
+	position: fixed;
+}
+.colpj{
+	float: left;
+	width: 170px;
+	height: 170px;
+	padding: 10px;
+}
+.imgpro{
+	width: 85%;
+	margin-left: auto;
+}
+#project{
+	background: black;
+	padding: 30px;
+	margin: 0;
+}
+.linkpj li{
+	list-style: none;
+	color: white;
+	line-height: 25px;
+	cursor: pointer;
+}
+.linkpj li:hover{
+	color: #538664;
+}
+.linkpj li:active{
+	color: #538664;
+}
+#principals,#team{
 	display: none;
+}
+.link1 img{
+	margin-top: 20px;
+	margin-left: 20px;
 }
 #main{
 	width: 100%;

@@ -1,0 +1,17 @@
+$(document).ready(function(){
+	$("li.ov").click(function(){
+		$("#vision").fadeIn("fast");
+		$("#principals").fadeOut("fast");
+		$("#team").fadeOut("fast");
+	})
+	$("li.ot").click(function(){
+		$("#principals").fadeOut("fast");
+		$("#vision").fadeOut("fast");
+		$("#team").fadeIn("fast");
+	})
+	$("li.pc").click(function(){
+		$("#principals").fadeIn("fast");
+		$("#vision").fadeOut("fast");
+		$("#team").fadeOut("fast");
+	})
+})
