@@ -1,13 +1,13 @@
 $(document).ready(function(){
 	$(".all").click(function(){
-		$(".rtt").fadeIn("fast");
-		$(".htt").fadeIn("fast");
-		$(".ecc").fadeIn("fast");
-		$(".arr").fadeIn("fast");
-		$(".eaa").fadeIn("fast");
+		$(".rtt").fadeIn("6000");
+		$(".htt").fadeIn("6000");
+		$(".ecc").fadeIn("6000");
+		$(".arr").fadeIn("6000");
+		$(".eaa").fadeIn("6000");
 	})
 	$(".rt").click(function(){
-		$(".rtt").fadeIn("fast");
+		$(".rtt").fadeIn("6000");
 		$(".htt").fadeOut("fast");
 		$(".ecc").fadeOut("fast");
 		$(".arr").fadeOut("fast");
@@ -15,7 +15,7 @@ $(document).ready(function(){
 	})
 	$(".ht").click(function(){
 		$(".rtt").fadeOut("fast");
-		$(".htt").fadeIn("fast");
+		$(".htt").fadeIn("6000");
 		$(".ecc").fadeOut("fast");
 		$(".arr").fadeOut("fast");
 		$(".eaa").fadeOut("fast");
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	$(".ec").click(function(){
 		$(".rtt").fadeOut("fast");
 		$(".htt").fadeOut("fast");
-		$(".ecc").fadeIn("fast");
+		$(".ecc").fadeIn("6000");
 		$(".arr").fadeOut("fast");
 		$(".eaa").fadeOut("fast");
 	})
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		$(".rtt").fadeOut("fast");
 		$(".htt").fadeOut("fast");
 		$(".ecc").fadeOut("fast");
-		$(".arr").fadeIn("fast");
+		$(".arr").fadeIn("6000");
 		$(".eaa").fadeOut("fast");
 	})
 	$(".ea").click(function(){
@@ -39,6 +39,6 @@ $(document).ready(function(){
 		$(".htt").fadeOut("fast");
 		$(".ecc").fadeOut("fast");
 		$(".arr").fadeOut("fast");
-		$(".eaa").fadeIn("fast");
+		$(".eaa").fadeIn("6000");
 	})
 })

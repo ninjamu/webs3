@@ -2,6 +2,9 @@ body{
 	margin: 0px;
 	width: 100%;
 }
+.col a:hover{
+	background-color: white;
+}
 .menupj{
 	width: 20%;
 	float: left;
@@ -67,8 +70,8 @@ body{
 }
 .col .text{
 	background-color: #051e00;
-	opacity: .8;
 	color: white;
+	opacity: .8;
 	padding-top: 100px;
 	position: absolute;
 	left: 0px;
