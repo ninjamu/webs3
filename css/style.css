@@ -2,6 +2,21 @@ body{
 	margin: 0px;
 	width: 100%;
 }
+.clonect{
+	color: #555;
+	width: 300px;
+	height: 100%;
+	float: left;
+	line-height: 15px;
+}
+.clonect .facebook{
+	text-decoration: none;
+	background-color: #e8e8e8;
+	color: #555;
+}
+.clonect .facebook:hover{
+	background-color: gold;
+}
 .cloneimg1{
 	width: 200px;
 	height: 250px;
@@ -215,6 +230,7 @@ body{
 	padding-top: 40px;
 	padding-bottom: 10px;
 	display: inline-block;
+	width: 100%;
 }
 #principals{
 }
@@ -228,4 +244,33 @@ body{
 }
 .txtteam1 p {
 	line-height: 10px;
+}
+.Name {
+	background-color: #e8e8e8;
+	color: #555;
+	padding: 10px;
+	width: 50%;
+	border: none;
+}
+p{
+	color: #555;
+}
+.textare{
+	width: 60%;
+	height: 50%;
+	background-color: #e8e8e8;
+	color: #555;
+	border: none;
+}
+#check{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.button1{
+	padding: 10px;
+	background-color: #333;
+	height: 34px;
+	color: #fff;
+	border:none;
+	margin-top: 20px;
 }
