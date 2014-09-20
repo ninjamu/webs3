@@ -2,6 +2,16 @@ body{
 	margin: 0px;
 	width: 100%;
 }
+.cloneimg1{
+	width: 200px;
+	height: 250px;
+	float: left;
+	margin-right: 20px;
+}
+.cloneimg1 img{
+	width: 100%;
+	height: 100%;
+}
 .menupj{
 	width: 20%;
 	float: left;
@@ -204,6 +214,7 @@ body{
 .rowpri{
 	padding-top: 40px;
 	padding-bottom: 10px;
+	display: inline-block;
 }
 #principals{
 }
